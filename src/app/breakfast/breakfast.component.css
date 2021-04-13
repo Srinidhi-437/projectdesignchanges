@@ -1,0 +1,17 @@
+@keyframes tilt-in-bottom-2{0%{transform:rotateY(-30deg) translateY(300px) skewY(30deg);opacity:0}100%{transform:rotateY(0deg) translateY(0) skewY(0deg);opacity:1}}
+
+h1
+{
+    animation:tilt-in-bottom-2 2s cubic-bezier(.25,.46,.45,.94) both
+}
+
+.imgtext{
+  position: absolute;
+  top: 57%;
+  left: 18%;
+  transform: translate(-50%, -50%);
+  color: chocolate;
+  font-size: 45px;
+  border: 3px solid chocolate;
+  padding: 8px;
+}

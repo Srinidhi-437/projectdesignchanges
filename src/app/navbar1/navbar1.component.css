@@ -1,0 +1,54 @@
+
+
+ @keyframes scale-up-center{0%{transform:scale(.5)}100%{transform:scale(1)}}
+ @keyframes text-focus-in{0%{filter:blur(12px);opacity:0}100%{filter:blur(0);opacity:1}}
+/* .ng-touched.ng-invalid{
+    border: 1px solid red;
+}
+
+.ng-touched.ng-valid{
+    border: 1px solid green;
+} */
+
+/* 
+ .kenburns-top {
+	-webkit-animation: kenburns-top 5s ease-in infinite both;
+	        animation: kenburns-top 5s ease-in infinite both;
+} */
+
+a:hover{
+    background-color: #FFE4B5;
+    border-radius: 25px;
+}
+
+#logo{
+    /* animation:scale-up-center 4s cubic-bezier(.39,.575,.565,1.000) both */
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+}
+
+#home
+{
+    /* animation:scale-up-center 4s cubic-bezier(.39,.575,.565,1.000) both */
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+}
+#login{
+    /* animation:scale-up-center 4s cubic-bezier(.39,.575,.565,1.000) both */
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+
+}
+#register{
+    /* animation:scale-up-center 4s cubic-bezier(.39,.575,.565,1.000) both */
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+
+}
+
+
+#logout{
+    /* animation:scale-up-center 4s cubic-bezier(.39,.575,.565,1.000) both */
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+}
+
+#cart{
+    /* animation:scale-up-center 4s cubic-bezier(.39,.575,.565,1.000) both */
+    animation:text-focus-in 1.5s cubic-bezier(.55,.085,.68,.53) both
+}

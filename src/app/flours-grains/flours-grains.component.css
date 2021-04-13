@@ -1,0 +1,5 @@
+@keyframes flip-in-hor-bottom{0%{transform:rotateX(80deg);opacity:0}100%{transform:rotateX(0);opacity:1}}
+
+h1{
+    animation:flip-in-hor-bottom 4s cubic-bezier(.25,.46,.45,.94) both
+}
